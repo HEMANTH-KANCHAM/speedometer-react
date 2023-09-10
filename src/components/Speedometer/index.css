@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.speedometer-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40pxs;
+}
+
+.speedometer-heading {
+  font-size: 40px;
+  color: #ffffff;
+  font-style: italic;
+}
+.speedometer-img {
+  width: 80%;
+}
+.speedometer-speed {
+  color: #ffffff;
+}
+.speedometer-description {
+  color: #cbd5e1;
+}
+.button {
+  height: 40px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.accelerate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+}
+.brake-button {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 1px solid #94a3b8;
+}
